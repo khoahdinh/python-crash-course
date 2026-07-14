@@ -3,4 +3,6 @@ print(bicycles)
 
 # list example
 
-print(bicycles[0].title())
+print(bicycles[0]) 
+
+print(bicycles[0].title()) 

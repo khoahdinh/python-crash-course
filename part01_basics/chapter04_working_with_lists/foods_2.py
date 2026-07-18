@@ -1,6 +1,5 @@
 my_foods = ["banh xeo", "banh hoi", "banh beo", "banh canh"]
 
-
 # copyying a list must use Slice
 friend_foods = my_foods[:]
 
@@ -12,3 +11,6 @@ print(my_foods)
 
 print("\nMy friend's favorite food are:")
 print(friend_foods)
+
+for food in friend_foods:
+    print(food)
